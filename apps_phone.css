@@ -1,0 +1,124 @@
+@media (max-width: 700px) {
+
+#modal_proyecto {
+    padding: 1% 3%;
+    align-items: center;
+    align-self:center;
+    background-color: rgb(188, 189, 190);
+    border: none;
+    border-radius: 2%;
+}
+#modal_proyecto::backdrop {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+}
+.titulos {
+    text-align: center;
+    font-size: 330%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.titulo {
+    margin: 5% 0 2% 0;
+    font-size: 130%;
+}
+.proyectos_phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.contenedor_img {
+    position: relative;
+    width: 100%;
+    border-radius: 5%;
+    display: block;
+}
+.imagen_proyecto {
+    position: relative;
+    width: 90%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.imagen_proyecto img {
+    width: 100%;
+    border-radius: 5%;
+    display: block;
+}
+.descripciones_materias {
+    text-align: left;
+    padding: 0 5%;
+    font-size: 120%;
+    margin-bottom: 10%;
+}
+.descripcion {
+    text-align: justify;
+    font-size: 120%;
+    margin: 3% 0% 0% 0%;
+}
+.info {
+    text-align: justify;
+    position: static;
+    background: none;
+    color: black;
+    padding: 3% 0% 2% 0%;
+    width: 90%;
+    margin: 0 auto;
+}
+.ver_mas_botones {
+    position: absolute;
+    bottom: 7%;
+    right: 5%;
+
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+    font-size: 100%;
+    z-index: 2;
+    cursor: pointer;
+    text-decoration: none;
+
+    backdrop-filter: blur(2px);
+}
+.oculto {
+    display: none;
+    margin-top: 0;
+    text-align: justify;
+    font-size: 80%;
+}
+
+.cerrar {
+    border: azure 1px;
+    background-color: azure;
+    padding: 2% 7% 2% 4%;
+    margin: 1% 2% 1% 2%;
+    border-radius: 20%;
+    width: 10%;
+    height: auto;
+}
+.modal_img {
+    width: 100%;
+    border-radius: 5%;
+    display: block;
+}
+.modal_titulo {
+    margin: 5% 0 2% 0;
+    font-size: 140%;
+}
+.modal_desc {
+    font-size: 120%;
+    margin: 3% 0 4% 0;
+}
+.no-scroll {
+    overflow: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+}

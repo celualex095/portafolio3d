@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pag_jocy.css" />
+    <title>Jocy</title>
+</head>
+<body>
+    <div class="contenedor_principal">
+        <button id="btnAtras"><img src="./imagenes_proyectos/redes/flecha_atras.png" alt="Flecha hacia atrás"></button>
+
+        <div class="header_jocy">
+            <img id="perfil_pag_jocy" src="imagenes_proyectos/fotos_perfil/nueva_perfil_jocy.jpg">
+
+            <div class="info_jocy">
+                <div class="redes_jocy">
+                    <a href="https://www.facebook.com/share/1ZWZxS51eJ/?mibextid=wwXIfr" target="_blank">
+                        <img src="imagenes_proyectos/chats/logo_facebook.png" alt="App 1">
+                    </a>
+                    <a href="https://www.instagram.com/jocy_06?igsh=MXZqOTV1bTNqODhnZQ==" target="_blank">
+                        <img src="imagenes_proyectos/chats/logo_insta.png" alt="App 2">
+                    </a>
+                    <img src="imagenes_proyectos/redes/correo_icon.png" alt="App 3" onclick="abrirModal('modalCorreo')">
+                    <img src="imagenes_proyectos/redes/telefono_icon.png" alt="App 4" onclick="abrirModal('modalTelefono')">
+                </div>
+
+                <p class="texto_jocy">
+                    Jocelyn Mariela Porras Carrera - 19 años <br>
+                    Estudiante de Ingeniería en Multimedia – 4to semestre <br>
+                    Instituto Palmore, Chihuahua, México
+                </p>
+            </div>
+        </div>
+
+        <div class="descripcion_jocy">
+            <p class="texto_jocy_gen">Soy estudiante de Ingeniería en Multimedia con interés en la creación de proyectos que 
+                combinan narrativa, diseño y tecnología. Me apasiona el desarrollo de contenido visual y digital, 
+                especialmente en áreas como la narrativa multimedia, el diseño interactivo y la producción audiovisual. 
+                Me considero una persona creativa, comprometida y en constante aprendizaje, con interés en desarrollar 
+                proyectos que conecten emocionalmente con el público y aporten valor cultural y creativo.<br>
+                Fuera de clases me gusta explorar otras facetas en mi creatividad como la escritura, creando historias 
+                nuevas, las cuales busco que en un futuro vean la luz al mundo.</p>
+        </div>
+        <div class="galeria_jocy">
+            <img class="fav_jocy" src="imagenes_proyectos/audiovisual/lunactico.jpg">
+            <img class="fav_jocy" src="imagenes_proyectos/3d/hallowenesco.jpg">
+            <img class="fav_jocy" src="imagenes_proyectos/audiovisual/video_animación_img.png">
+        </div>
+    </div>
+    <div id="modalCorreo" class="modal">
+    <div class="modal-contenido">
+        <span class="cerrar" onclick="cerrarModal('modalCorreo')">&times;</span>
+        <h2>Contacto</h2>
+        <p>Este es mi correo:</p>
+        <p class="dato">jocelynporras06@gmail.com</p>
+    </div>
+    </div>
+
+    <div id="modalTelefono" class="modal">
+    <div class="modal-contenido">
+        <span class="cerrar" onclick="cerrarModal('modalTelefono')">&times;</span>
+        <h2>Contacto</h2>
+        <p>Este es mi número:</p>
+        <p class="dato">614 104 5082</p>
+    </div>
+    </div>
+  
+  <script src="javascript/atras.js"></script>
+  <script src="pag_joce.js"></script>
+</body>
+</html>

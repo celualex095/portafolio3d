@@ -1,0 +1,42 @@
+#fondo_whats {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.fondo_arriba {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    object-fit: cover;
+    z-index: 1;
+}
+.fondo_abajo {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    height: 82%;
+    object-fit: cover;
+    z-index: 1;
+}
+.btn_chat {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 2;
+}
+.btn_chat img {
+    width: 100%;
+    display: block;
+}
+.btn1 { top: 20%; }
+.btn2 { top: 33%; }
+.btn3 { top: 46%; }
+.btn4 { top: 59%; }
+body {
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Segoe UI', sans-serif;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.marco-externo {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    position: relative;
+    cursor: pointer;
+}
+
+.fondo-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Esto evita que el fondo se vea negro a los lados */
+    z-index: 1;
+}
+
+.interfaz-texto {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 30px rgba(0,0,0,0.9); 
+}
+
+#reloj {
+    font-size: 10rem; /* Tamaño grande como en tu captura */
+    font-weight: 300;
+    line-height: 1;
+}
+
+.mensaje-footer {
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    opacity: 0.8;
+    animation: parpadeo 2s infinite;
+}
+
+@keyframes parpadeo {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 1; }
+}

@@ -1,0 +1,11 @@
+.oculto{
+    display: none;
+}
+
+.modal_multimedia model-viewer,
+.modal_multimedia video{
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    object-fit: contain;
+}

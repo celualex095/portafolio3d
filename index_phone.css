@@ -1,0 +1,52 @@
+@media (max-width: 700px) {
+#bloqueo_de_pantalla {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 5%;
+    overflow: hidden;
+}
+#bloqueo_de_pantalla::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+    z-index: 2;
+    pointer-events: none;
+}
+#texto_bloqueo { 
+    position: relative;
+    margin: 0% 0% 20% 0%;
+    z-index: 3;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+} 
+#hora_phone { 
+    position: absolute; 
+    top: 3%;
+    z-index: 3; 
+    color: white; 
+    font-size: 400%; 
+    margin: 8%; 
+} 
+#hora_phone,
+#texto_bloqueo {
+    z-index: 3;
+}
+.fondo_phone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1; 
+} 
+}

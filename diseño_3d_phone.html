@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carpeta Diseño 3D</title>
+    <link rel="stylesheet" href="adobe.css" /> <!-- Css de la pagina adobe -->
+    <link rel="stylesheet" href="formato_pagina_proyectos.css" /> <!-- Css del formato de la pagina de proyectos -->
+    <link rel="stylesheet" href="./apps_phone.css">
+    <link rel="stylesheet" href="./styles/diseño_responsive.css">
+    <link rel="icon" href="./imagenes_proyectos/3d/diseño_3d.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/visor3d.css">
+  </head>
+  <body>
+    <div class="computadora">
+    <div class="navegador">
+      <img
+        src="./imagenes_proyectos/fondos/barra_navegacion_diseño3d.jpg"
+        alt="Imagen de barra de navegación"
+        class="barra_nav"
+      />
+    </div>
+    <div class="archivos">
+      <a class="carpetas" href="./adobe.html">📁 Adobe</a>
+      <a class="carpetas" href="./audiovisuales.html">🎬 Audiovisuales</a>
+      <a class="carpetas" href="./diseno3d.html">🧊 Diseño 3D</a>
+      <a class="carpetas" href="./electronica.html">🔌 Electronica</a>
+      <a class="carpetas" href="./desarrollo.html">💻 Desarrollo</a>
+      <a class="carpetas" href="./programacion.html">🧠 Programación</a>
+      <a class="carpetas" href="https://palmore.edu.mx/">🎓 Mi universidad</a>
+    </div>
+    <div class="tabla_proyectos">
+    <iframe src="proyectos_diseño3d.html"></iframe><!-- Copia el archivo, cambia el nombre del archivo, y añade los proyectos con su nombre y descripción -->
+    </div>
+    <footer class="barra-tareas">
+      <div class="seccion-inicio">
+        <a href="./principal.html">
+          <img
+            src="imagenes_proyectos/principal/imagen_de_casita.png"
+            class="win-btn"
+          />
+        </a>
+      </div>
+      <div class="usuarios">
+        <a href="./pag_joce.html" class="pagina_materia"><img src="imagenes_proyectos/fotos_perfil/perfil_jocy.jpeg" /></a>
+        <a href="./redes_alex.html" class="pagina_materia"><img src="imagenes_proyectos/fotos_perfil/perfil_alex.jpg"/></a>
+        <a href="./pag_jade.html" class="pagina_materia"><img src="imagenes_proyectos/fotos_perfil/perfil_jade.jpeg" /></a>
+        <a href="./pag_rebe.html" class="pagina_materia"><img src="imagenes_proyectos/fotos_perfil/perfil_re.jpeg"/></a>
+      </div>
+    <div class="sistema">
+      <div class="reloj-mini" id="reloj-mini"></div>
+    </div>
+  </footer> 
+  </div>
+
+  <!-- ------------------------------------------- -->
+  <!-- --------------CELULAR---------------------- -->
+  <!-- ------------------------------------------- -->
+
+  <div class="celular">
+      <h1 class="titulos">Diseño 3D</h1>
+  <p class="descripciones_materias">Trabajos de modelado y renderizado en entornos tridimensionales. Esta seccion muestra la creacion de objetos, escenarios y composiciones digitales, aplicando concepttos de iluminacion, textura y perspectiva.</p>
+  
+  <div class="proyectos_phone"> 
+    
+    <div class="imagen_proyecto">
+      <div class="contenedor_img caballero_de_silksong">
+        <img src="./imagenes_proyectos/3d/caballero.png" alt="Proyecto 1">
+        <button class="ver_mas_botones">Ver más...</button>
+      </div>
+      <div class="info">
+        <h3 class="titulo">Caballero de Silksong</h3>
+        <p class="descripcion">Figura 3d de un caballero del mundo de Silksong</p>
+      </div> 
+      <div class="oculto">
+          <model-viewer src="./glb/The_knight_alex.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+          <p>Diseño 3D hecho por Alejandro en la aplicación de blender. Esta modelado apartir de un solo circulo y con la herramienta de cuchillo para agregar cortes que ayudaron a la construccion de los cuenrnos, se le agregaron texturas de color solido para darle profundidad a los ojos y color a las ropas.</p>
+      </div>
+    </div> 
+
+    <div class="imagen_proyecto">
+      <div class="contenedor_img practica_3d">
+          <img src="./imagenes_proyectos/3d/casa_explosion_alex.png" alt="Proyecto 1">
+          <button class="ver_mas_botones">Ver más...</button>
+      </div>
+      <div class="info">
+        <h3 class="titulo">Practica 3D </h3>
+        <p class="descripcion">Practica de modelado 3D de una casa en explosion con Blender</p>
+      </div> 
+      <div class="oculto">
+          <video><source src="./glb/cabaña_alex.mp4" type="video/mp4"></video>
+          <p>Diseño 3D hecho por Alejandro en la aplicación de blender. Casa hecha a base de troncos modelados de un circulo cada uno.se agrego un cuadro para el piso al cual se le agregaron divisiones para darle declives o elevaciones además de poder contener un pequeño lago.</p>
+      </div>
+    </div> 
+
+    <div class="imagen_proyecto">
+      <div class="contenedor_img casa_3d">
+        <img src="./imagenes_proyectos/3d/casa_jocy.jpg" alt="Proyecto 1">
+        <button class="ver_mas_botones">Ver más...</button>
+      </div>
+      <div class="info">
+        <h3 class="titulo">Casa 3D </h3>
+        <p class="descripcion">Casa que explota con animación de agua incluida.</p>
+      </div> 
+      <div class="oculto">
+        <video><source src="./glb/cabaña_jos.mp4" type="video/mp4"></video>
+        <p>Diseño 3D hecho por Jocelyn en la aplicación de blender. Casa hecha en base a un cuadrado, con texturas de madera oscura. se agregó un cuadro para el piso al cual se le agregaron divisiones para darle declives o elevaciones además de poder contener un pequeño lago que está en constante movimiento, a su vez en las zonas con textura verde se aplicó la herramienta cabello para agregarle pasto que se mueve también con una física de aire.</p>
+      </div>
+      </div> 
+
+    <div class="imagen_proyecto">
+      <div class="contenedor_img cuarto_3d">
+        <img src="./imagenes_proyectos/3d/casita_3d_alex.png" alt="Proyecto 1">
+        <button class="ver_mas_botones">Ver más...</button>
+      </div>
+      <div class="info">
+        <h3 class="titulo">Cuarto 3D</h3>
+        <p class="descripcion">Modelado 3D de un cuarto con Blender</p>
+      </div> 
+      <div class="oculto">
+        <model-viewer src="./glb/isometrico_cuarto_alex.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+        <p>Diseño 3D hecho por Alejandro en la aplicación de blender. Se hizo la base de la cama y el colchón a partir de un cubo agregando capas y nodos para separarlos. La sábana está hecha a partir de un cuadrado con subdivisiones altas y agregando la física de gravedad y colisión para que se ajustara al colchón. Las almohadas son dos cuadrados cosidos y con una herramienta llamada relleno, lo que le da ese efecto de relleno esponjoso. El cuadro está hecho de un cuadrado con textura de madera y una foto.</p>
+      </div>    
+    </div> 
+
+    <div class="imagen_proyecto">
+      <div class="contenedor_img comedor_3d">
+        <img src="./imagenes_proyectos/3d/comedor_alex.png" alt="Proyecto 1">
+        <button class="ver_mas_botones">Ver más...</button>
+      </div>
+      <div class="info">
+        <h3 class="titulo">Comedor 3D</h3>
+        <p class="descripcion">Modelado 3D de un comedor con Blender</p>
+      </div> 
+      <div class="oculto">
+          <model-viewer src="./glb/Florero_luz_intento_render_alex.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+          <p>Diseño 3D hecho por Alejandro en la aplicación de blender. Se hizo la base de la cama y el colchón a partir de un cubo agregando capas y nodos para separarlos. La sábana está hecha a partir de un cuadrado con subdivisiones altas y agregando la física de gravedad y colisión para que se ajustara al colchón. Las almohadas son dos cuadrados cosidos y con una herramienta llamada relleno, lo que le da ese efecto de relleno esponjoso. El cuadro está hecho de un cuadrado con textura de madera y una foto.</p>
+      </div>    
+    </div> 
+
+    <div class="imagen_proyecto">
+      <div class="contenedor_img cuerpo_3d">
+        <img src="./imagenes_proyectos/3d/cuerpo_jade.jpeg" alt="Proyecto 1">
+        <button class="ver_mas_botones">Ver más...</button>
+      </div>
+      <div class="info">
+        <h3 class="titulo">Cuerpo 3D</h3>
+        <p class="descripcion">Modelado 3D de un cuerpo con Blender</p>
+      </div> 
+      <div class="oculto">
+        <model-viewer src="./glb/yo.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+        <p>Diseño 3D hecho por Jade en la aplicación de blender. Capa parte del cuerpo está modelado a partir de círculos con la herramienta de extruir, se usa la herramienta cuchillo para darle cortes en diagonal y dar profundidad o redondeo. Se cocieron cada parte al trozo incluyendo cada dedo.</p>
+      </div>    
+    </div> 
+
+    <div class="imagen_proyecto">
+      <div class="contenedor_img funko_3d_alex">
+        <img src="./imagenes_proyectos/3d/funko_alex.png" alt="Proyecto 1">
+        <button class="ver_mas_botones">Ver más...</button>
+      </div>
+      <div class="info">
+        <h3 class="titulo">Funko 3D</h3>
+        <p class="descripcion">Modelado 3D de un Funko Pop personal con Blender</p>
+      </div> 
+      <div class="oculto">
+        <model-viewer src="./glb/funko_alex.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+        <p>Diseño 3D hecho por Alex en la aplicación de blender. Capa parte del cuerpo está modelado a partir de círculos con la herramienta de extruir, se usa la herramienta cuchillo para darle cortes en diagonal y dar profundidad o redondeo. Se cocieron cada parte al trozo incluyendo cada dedo.</p>
+      </div>    
+    </div> 
+
+    <div class="imagen_proyecto">
+      <div class="contenedor_img funko_3d_jocy">
+        <img src="./imagenes_proyectos/3d/funko_jocy.jpg" alt="Proyecto 1">
+        <button class="ver_mas_botones">Ver más...</button>
+      </div>
+      <div class="info">
+        <h3 class="titulo">Funko 3D</h3>
+        <p class="descripcion">Modelado 3D de un Funko Pop personal con Blender</p>
+      </div> 
+      <div class="oculto">
+        <model-viewer src="./glb/funko2_jos.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+        <p>Diseño 3D hecho por Jocelyn en la aplicación de blender.  Está modelado a partir de dos cubos con subdivisión de nivel 6. Se esculpio con ayuda de la candidad de nodos puestos y se agrego textura de color base. se apoya de luces de tipo punto para mejorar la luz.</p>
+      </div>    
+    </div> 
+
+    <div class="imagen_proyecto">
+      <div class="contenedor_img funko_3d_jade">
+        <img src="./imagenes_proyectos/3d/funko_jade.jpeg" alt="Proyecto 1">
+        <button class="ver_mas_botones">Ver más...</button>
+      </div>
+      <div class="info">
+        <h3 class="titulo">Funko 3D</h3>
+        <p class="descripcion">Modelado 3D de un Funko Pop personal con Blender</p>
+      </div> 
+      <div class="oculto">
+        <video><source src="./glb/funko_jade.mp4" type="video/mp4"></video>
+        <p>Diseño 3D hecho por Jade en la aplicación de blender. Está modelado a partir de dos cubos con subdivisión de nivel 6. Se esculpio con ayuda de la candidad de nodos puestos y se agrego textura de color base. se apoya de luces de tipo punto para mejorar la luz.</p>
+      </div>    
+    </div> 
+
+    <div class="imagen_proyecto">
+      <div class="contenedor_img hallowenesco">
+        <img src="./imagenes_proyectos/3d/hallowenesco.jpg" alt="Proyecto 1">
+        <button class="ver_mas_botones">Ver más...</button>
+      </div>
+      <div class="info">
+        <h3 class="titulo">Hallowenesco</h3>
+        <p class="descripcion">Modelado 3D de Halloween con Blender</p>
+      </div> 
+      <div class="oculto">
+        <model-viewer src="./glb/halloween_jos.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+        <p>Diseño 3D hecho por Jocelyn en la aplicación de blender. Está modelado a partir de un círculo curvando las capas para darle el efecto redondo. tiene una luz dentro de tipo punto para dar el efecto de vela. El fantasma está modelado a partir de un círculo.</p>
+      </div>    
+    </div>  
+
+    <div class="imagen_proyecto">
+      <div class="contenedor_img bandera_3d">
+        <img src="./imagenes_proyectos/3d/bandera.jpg" alt="Proyecto 1">
+        <button class="ver_mas_botones">Ver más...</button>
+      </div>
+      <div class="info">
+        <h3 class="titulo">Bandera 3D</h3>
+        <p class="descripcion">Modelado 3D de una bandera elevandose en la lluvia con Blender</p>
+      </div> 
+      <div class="oculto">
+        <video><source src="./glb/bandera_jos.mp4" type="video/mp4"></video>
+        <p>Diseño 3D hecho por Jocelyn en la aplicación de blender. La bandera se construyó con un cuadrado, se usó la herramienta de ropa para darle las físicas como la gravedad. Se ancló la bandera al poste, que está hecho con un círculo, y se agregaron las partículas de lluvia desde un cuadrado en la parte superior que es la que suelta las gotas y el piso tiene una herramienta de eliminar partículas por lo que no traspasan.</p>
+      </div>    
+    </div>    
+
+    <div class="imagen_proyecto">
+      <div class="contenedor_img jarron_3d">
+        <img src="./imagenes_proyectos/3d/jarron_jade.jpeg" alt="Proyecto 1">
+        <button class="ver_mas_botones">Ver más...</button>
+      </div>
+      <div class="info">
+        <h3 class="titulo">Jarrón 3D</h3>
+        <p class="descripcion">Modelado 3D de un jarrón con Blender</p>
+      </div> 
+      <div class="oculto">
+        <model-viewer src="./glb/Jarron.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+        <p>Diseño 3D hecho por Jade en la aplicación de blender. Se usó un círculo y con ayuda de la herramienta extruir se construyó el jarrón, con otro círculo se modeló la rama y las hojas están hechas con un cuadrado. Se usó la herramienta de cabello para adherir y multiplicar la hoja a la rama.</p>
+      </div>    
+    </div>
+    
+    <div class="imagen_proyecto">
+      <div class="contenedor_img paisaje_3d">
+        <img src="./imagenes_proyectos/3d/paisaje_lado_alex.png" alt="Proyecto 1">
+        <button class="ver_mas_botones">Ver más...</button>
+      </div>
+      <div class="info">
+        <h3 class="titulo">Paisaje 3D</h3>
+        <p class="descripcion">Modelado 3D de un paisaje con Blender</p>
+      </div> 
+      <div class="oculto">
+        <model-viewer src="./glb/funko_con_escenario_alex.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+        <p>Diseño 3D hecho por Alejandro en la aplicación de blender. Este proyecto es la construcción de un escenario con varias imágenes jugando con la profundidad de las imágenes y la iluminación.</p>
+      </div>    
+    </div> 
+
+    <div class="imagen_proyecto">
+      <div class="contenedor_img sala_3d_jade">
+        <img src="./imagenes_proyectos/3d/sala_jade.png" alt="Proyecto 1">
+        <button class="ver_mas_botones">Ver más...</button>
+      </div>
+      <div class="info">
+        <h3 class="titulo">Sala 3D</h3>
+        <p class="descripcion">Modelado 3D de una sala con Blender</p>
+      </div> 
+      <div class="oculto">
+        <model-viewer src="./glb/mesaJade.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+        <p>Diseño 3D hecho por Jade en la aplicación de blender. Se usó un cubo como base para la creación de silla separándolo en diferentes capas y de ahí sacando las patas. El florero y la planta se hicieron en otro archivo y se exportó a este, el fondo es una foto libre de derechos sobre París, se ajustó la luz para ser similar, se agregó textura para dar un poco más de realismo.</p>
+      </div>
+    </div>  
+
+    <div class="imagen_proyecto">
+      <div class="contenedor_img fuente_3d_jocy">
+        <img src="./imagenes_proyectos/3d/fuente_jocy.jpg" alt="Proyecto 1">
+        <button class="ver_mas_botones">Ver más...</button>
+      </div>
+      <div class="info">
+        <h3 class="titulo">Fuente 3D</h3>
+        <p class="descripcion">Fuente 3D con Blender</p>
+      </div> 
+      <div class="oculto">
+          <video><source src="./glb/fuente_jos.mp4" type="video/mp4"></video>
+          <p>Diseño 3D hecho por Jocelyn en la aplicación de blender. Se usó un cubo para hacer la base de la fuente, la cara es una forma preestablecida en blender, se usó la herramienta de creación de agua para llenar la fuente.</p>
+      </div>    
+    </div> 
+
+    <div class="imagen_proyecto">
+      <div class="contenedor_img fuente_3d">
+        <img src="./imagenes_proyectos/3d/fuente.jpeg" alt="Proyecto 1">
+        <button class="ver_mas_botones">Ver más...</button>
+      </div>
+      <div class="info">
+        <h3 class="titulo">Fuente 3D</h3>
+        <p class="descripcion">Fuente 3D con Blender</p>
+      </div> 
+      <div class="oculto">
+          <model-viewer src="./glb/fuente_rebeca.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+          <p>Diseño 3D hecho por Rebeca en la aplicación de blender. Se modeló la fuente a base de un círculo y se usó la herramienta de creación de agua.</p>
+      </div>    
+    </div> 
+    <dialog id="modal_proyecto">
+        <button class="cerrar">✖️</button>
+
+        <div class="modal_multimedia"></div>
+
+        <div class="modal_info">
+            <h2 class="modal_titulo"></h2>
+            <p class="modal_desc"></p>
+        </div>
+    </dialog>
+
+  </div>
+  
+</div>
+
+  <script src="javascript/modal_vista3d_phone.js"></script>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.2.0/model-viewer.min.js"></script>
+  <script src="javascript/reloj.js"></script>
+  </body>
+</html>
+<!-- No mover nada aqui, si no el formato se rompe -->
+ <!-- El i frame es para añadir una pagina externa a tu pagina, en este caso pagina de proyectos de adobe en la pagina de adobe, para utilizar mas facilmente el css -->

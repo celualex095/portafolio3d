@@ -1,0 +1,31 @@
+.proyectos_galeria {
+    width: 90%;
+    margin: 5% auto;
+    position: relative;
+}
+.proyecto_personal {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.ver_mas {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    border: none;
+    padding: 2% 4%;
+    border-radius: 8px;
+    font-size: 3.5vw;
+}
+.oculto {
+    display: none;
+    font-size: 3.5vw;
+    text-align: justify;
+}
+body.galerias {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111a23;
+}
